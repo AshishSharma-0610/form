@@ -28,7 +28,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<FormEditor />} />
-          <Route path="/form/:id" component={FormRenderer} />
+          <Route path="/form/:id" element={<FormRenderer />} />
         </Routes>
       </div>
     </Router>
